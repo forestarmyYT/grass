@@ -13,7 +13,7 @@ from websockets_proxy import Proxy, proxy_connect
 init(autoreset=True)
 
 BANNER = """
-F O R E S T A R M Y - G R A S S ep5                                               
+F O R E S T A R M Y - G R A S S - ITSMESATYAVIR                                              
 """
 
 EDGE_USERAGENTS = [
@@ -240,8 +240,9 @@ async def connect_to_wss(socks5_proxy, user_id, mode):
 
 async def main():
     print(f"{Fore.CYAN}{BANNER}{Style.RESET_ALL}")
-    print(f"{Fore.CYAN}SATYAVIR=> RAGINI, RIYA, AABHA, ANSHU-X{Style.RESET_ALL}")
+    print(f"{Fore.CYAN} PAYPAL:- https://paypal.me/itsmesatyavir {Style.RESET_ALL}")
     print(f"{Fore.GREEN}[YT:- https://youtube.com/forestarmy]{Style.RESET_ALL}")
+    print(f"{Fore.GREEN}[TG:- https://telegram.com/forestarmy]{Style.RESET_ALL}")
     
     with open('data.txt', 'r') as id_file:
         _user_id = id_file.read().strip()
